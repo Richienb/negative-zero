@@ -1,6 +1,6 @@
 {
   "name": "negative-zero",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a number is negative zero",
   "license": "MIT",
   "repository": "sindresorhus/negative-zero",
