@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var negativeZero = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(negativeZero(-0));
-	t.assert(!negativeZero(+0));
-	t.assert(!negativeZero(0));
-	t.assert(!negativeZero(-1));
-	t.assert(!negativeZero('0'));
-	t.end();
+test(t => {
+	t.true(fn(-0));
+	t.false(fn(+0));
+	t.false(fn(0));
+	t.false(fn(-1));
+	t.false(fn('0'));
 });
