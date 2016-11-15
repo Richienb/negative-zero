@@ -1,4 +1,2 @@
 'use strict';
-module.exports = function (x) {
-	return x === 0 && 1 / x === -Infinity;
-};
+module.exports = x => Object.is(x, -0);

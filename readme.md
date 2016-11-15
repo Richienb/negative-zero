@@ -13,7 +13,7 @@ $ npm install --save negative-zero
 ## Usage
 
 ```js
-var negativeZero = require('negative-zero');
+const negativeZero = require('negative-zero');
 
 negativeZero(-0);
 //=> true
@@ -33,4 +33,4 @@ negativeZero(+0);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

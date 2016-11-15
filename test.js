@@ -1,10 +1,10 @@
 import test from 'ava';
-import fn from './';
+import m from './';
 
 test(t => {
-	t.true(fn(-0));
-	t.false(fn(+0));
-	t.false(fn(0));
-	t.false(fn(-1));
-	t.false(fn('0'));
+	t.true(m(-0));
+	t.false(m(+0));
+	t.false(m(0));
+	t.false(m(-1));
+	t.false(m('0'));
 });
