@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from './';
+import negativeZero from '.';
 
-test(t => {
-	t.true(m(-0));
-	t.false(m(+0));
-	t.false(m(0));
-	t.false(m(-1));
-	t.false(m('0'));
+test('main', t => {
+	t.true(negativeZero(-0));
+	t.false(negativeZero(+0));
+	t.false(negativeZero(0));
+	t.false(negativeZero(-1));
+	t.false(negativeZero('0'));
 });

@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save negative-zero
+$ npm install negative-zero
 ```
 
 
