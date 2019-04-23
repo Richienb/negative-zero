@@ -1,5 +1,5 @@
 /**
-Check if a number is [negative zero](http://en.wikipedia.org/wiki/Signed_zero).
+Check if a number is [negative zero](https://en.wikipedia.org/wiki/Signed_zero).
 
 @example
 ```
