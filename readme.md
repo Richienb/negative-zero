@@ -1,4 +1,4 @@
-# negative-zero [![Build Status](https://travis-ci.org/sindresorhus/negative-zero.svg?branch=master)](https://travis-ci.org/sindresorhus/negative-zero)
+# negative-zero
 
 > Check if a number is [negative zero](https://en.wikipedia.org/wiki/Signed_zero)
 
